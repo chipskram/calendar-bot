@@ -1,0 +1,21 @@
+{
+  "name": "calendar-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that connects to Google Calendars",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Nico Matzutt",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "lodash": "^4.17.15",
+    "pino": "^6.2.0",
+    "pino-pretty": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/pino": "^6.0.0"
+  }
+}
