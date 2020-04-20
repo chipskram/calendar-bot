@@ -21,4 +21,4 @@ for(let l of listeners) {
     client.on(l.event, l.handler);
 }
 
-client.login('NzAxOTE3ODMxNzUwNzQ2MjEz.Xp4fNA.u2FeKdrIDjYWHD_0x68sN3GEyBg');
+client.login('token');
