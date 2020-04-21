@@ -7,6 +7,7 @@
 const logger = require('./util/logger');
 const Discord = require('discord.js');
 const listeners = require('./config/listeners');
+const token = require('./config/token');
 
 // Create an instance of a Discord client
 const client = new Discord.Client();
@@ -21,4 +22,4 @@ for(let l of listeners) {
     client.on(l.event, l.handler);
 }
 
-client.login('token');
+client.login(token);
